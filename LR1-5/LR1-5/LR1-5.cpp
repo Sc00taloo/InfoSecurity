@@ -250,7 +250,7 @@ int main() {
         }
         string prov = all[0];
         for (i = 0; i < 4; ++i) {    
-            if (all[i].size() > prov.size()) {
+            if (all[i].size() < prov.size()) {
                 prov = all[i];
             }
         }
